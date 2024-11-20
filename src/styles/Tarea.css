@@ -1,0 +1,23 @@
+.tarea {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .tarea h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .tarea p {
+    font-size: 14px;
+  }
+  
+  .tarea a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  

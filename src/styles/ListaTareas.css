@@ -1,0 +1,51 @@
+
+/* Contenedor de la lista de tareas */
+.lista-tareas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilo de cada tarea en la lista */
+  .lista-tareas .tarea {
+    width: 90%;
+    max-width: 600px;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Efecto al pasar el cursor sobre una tarea */
+  .lista-tareas .tarea:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Título de la tarea */
+  .lista-tareas .tarea h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Descripción breve de la tarea */
+  .lista-tareas .tarea p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Enlace para ver detalles */
+  .lista-tareas .tarea a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .lista-tareas .tarea a:hover {
+    text-decoration: underline;
+  }
+  
